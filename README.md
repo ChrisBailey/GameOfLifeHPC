@@ -1,14 +1,14 @@
-COSC3500 Major Project - Game of Life
+Game of Life
 By Christopher Bailey
 
+This project implements Conway's Game of Life using various HPC methods in C++.
+
 How to build:
-Load appropriate modules ('module load gnu', 'module load cuda')
+Ensure you have a suitable environment (gcc and nvcc) and dependencies.
 Type make and the makefile should build all three targets.
 
 How to run:
 Invidual programs can be run using ./gol-<variant> <height> <width> <turns>
-
-Slurm scripts are provided for each version and can be run via 'sbatch slurm-<variant>'
 
 To verify:
 Once serial variant has been run for a given set of inputs you can verify the other
